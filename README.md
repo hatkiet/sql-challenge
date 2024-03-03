@@ -7,13 +7,13 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 **Data Modeling**
 
-After inspected the CSV files, I've used the QuickDBD tool to sketch an Entity Relationship Diagram of the tables. 
+After inspected the CSV files, I've used the QuickDBD tool to sketch an Entity Relationship Diagram of the tables. (See QuickDBD.* files)
 
 ![QuickDBD](https://github.com/hatkiet/sql-challenge/assets/154276115/bc5e79ef-ce12-464b-88bb-450ca5458c19)
 
 **Data Engineering**
 
-I used the provided information to create a table schema for each of the six CSV data files and then imported each CSV file into its corresponding SQL table. 
+I used the provided information to create a table schema for each of the six CSV data files and then imported each CSV file into its corresponding SQL table. (See Table_schemata.sql)
 
 •	For each column, I defined the correct data type and set primary keys for each table using CONSTRAINT to ensure that the column value is unique. 
 
@@ -21,7 +21,12 @@ I used the provided information to create a table schema for each of the six CSV
 
 •	I used NOT NULL in the columns that cannot contain the NULL value.
 
+•	I used VARCHAR(150) for safe choice which allows the maximum length of the columns is upto 150 characters.
+
+
+
 **Data Analysis**
+(See Queries.sql)
 
 [1] List the employee number, last name, first name, sex, and salary of each employee.
 
