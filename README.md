@@ -13,11 +13,10 @@ After inspected the CSV files, I've used the QuickDBD tool to sketch an Entity R
 
 **Data Engineering**
 
-Used the provided information to create table schema for each of six CSV data files and then import each CSV file into its corresponding SQL table. I have:
-- defined correct data type for each column.
-- set primary keys for each table and use CONSTRANT to ensure that the column value is unique
-- created tables in the correct order to avoid errors and also handles the foreign keys with corrected references
-- used NOT NULL in the columns which CAN'T contain the NULL value
+I used the provided information to create a table schema for each of the six CSV data files and then imported each CSV file into its corresponding SQL table. 
+•	For each column, I defined the correct data type and set primary keys for each table using CONSTRAINT to ensure that the column value is unique. 
+•	I created the tables in the correct order to avoid errors and also handled the foreign keys with corrected references. 
+•	I used NOT NULL in the columns that cannot contain the NULL value.
 
 Data Analysis
 
@@ -30,4 +29,4 @@ Data Analysis
 [7] List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 [8] List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-(Note: I've used the solutions of the examples and activities in class to work on this SQL-challenge, and refine with ChatGPT for optimize the answer.) 
+(Note: I used solutions from class examples and activities to work on this SQL challenge and refined it with ChatGPT for optimization.) 
