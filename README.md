@@ -6,6 +6,7 @@ It’s been two weeks since you were hired as a new data engineer at Pewlett Hac
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
 **Data Modeling**
+
 After inspected the CSV files, I've used the QuickDBD tool to sketch an Entity Relationship Diagram of the tables. 
 
 ![QuickDBD](https://github.com/hatkiet/sql-challenge/assets/154276115/bc5e79ef-ce12-464b-88bb-450ca5458c19)
@@ -29,4 +30,4 @@ Data Analysis
 [7] List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 [8] List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-(Note: I've the solutions of the examples and activities in class to work on this SQL-challenge, and refine with ChatGPT for optimize the answer.) 
+(Note: I've used the solutions of the examples and activities in class to work on this SQL-challenge, and refine with ChatGPT for optimize the answer.) 
