@@ -14,19 +14,30 @@ After inspected the CSV files, I've used the QuickDBD tool to sketch an Entity R
 **Data Engineering**
 
 I used the provided information to create a table schema for each of the six CSV data files and then imported each CSV file into its corresponding SQL table. 
+
 •	For each column, I defined the correct data type and set primary keys for each table using CONSTRAINT to ensure that the column value is unique. 
+
 •	I created the tables in the correct order to avoid errors and also handled the foreign keys with corrected references. 
+
 •	I used NOT NULL in the columns that cannot contain the NULL value.
 
 Data Analysis
 
 [1] List the employee number, last name, first name, sex, and salary of each employee.
+
 [2] List the first name, last name, and hire date for the employees who were hired in 1986.
+
 [3] List the manager of each department along with their department number, department name, employee number, last name, and first name.
+
 [4] List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+
 [5] List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
 [6] List each employee in the Sales department, including their employee number, last name, and first name.
+
 [7] List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
 [8] List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
 
 (Note: I used solutions from class examples and activities to work on this SQL challenge and refined it with ChatGPT for optimization.) 
