@@ -21,7 +21,7 @@ I used the provided information to create a table schema for each of the six CSV
 
 •	I used NOT NULL in the columns that cannot contain the NULL value.
 
-•	I used VARCHAR(150) for safe choice which allows the maximum length of the columns is upto 150 characters. Because using VARCHAR(255) reserves a fixed amount of storage space for each entry, regardless of its actual length. This could potentially waste storage if most entries are shorter than 255 characters. 
+•	I used VARCHAR(150) for safe choice which allows the maximum length of the columns is upto 150 characters. Because using VARCHAR(255) reserves a fixed amount of storage space for each entry, regardless of its actual length, could potentially waste storage if most entries are shorter than 255 characters. 
 
 
 
