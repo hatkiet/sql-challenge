@@ -21,8 +21,6 @@ I used the provided information to create a table schema for each of the six CSV
 
 •	I used NOT NULL in the columns that cannot contain the NULL value.
 
-•	I used VARCHAR(255) for safe choice which reserves a fixed amount of storage space for each entry, regardless of its actual length, however it could potentially waste storage if most entries are shorter than 255 characters. 
-
 
 
 **Data Analysis**
